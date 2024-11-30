@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #c3e0e5, #5885af);
+  color: #274472;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.app-header {
+  padding: 20px;
+  background-color: #41729f;
+  color: #ffffff;
+  border-bottom: 4px solid #274472;
+
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px #fdfdfd;
+}
+
+.button-container {
+  margin: 20px 0;
+}
+
+.action-btn {
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s, box-shadow 0.3s;
+  background-color: #41729f;
+  color: #ffffff;
+}
+
+.action-btn:hover {
+  transform: translateY(-3px);
+  background-color: #5885af;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.fetch-btn {
+  background-color: #274472;
+  color: #ffffff;
+}
+
+.fetch-btn:hover {
+  background-color: #41729f;
+}
+
+.feeds-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+
+.feed-card {
+  background: #ffffff;
+  border: 1px solid #c3e0e5;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  padding: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feed-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.feed-author {
+  color: #41729f;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.feed-content {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #274472;
+  line-height: 1.5;
+}
+
+.feed-date {
+  font-size: 0.9rem;
+  color: #5885af;
+
+}
+
+.feed-thumbnail {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 1px solid #c3e0e5;
+
+}
